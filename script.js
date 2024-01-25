@@ -80,12 +80,13 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // Initialize images and shuffle
-  const imageSrcArray = ['image1.jpg', 'image2.jpg', 'image3.jpg', 'image4.jpg', 'image5.jpg'];
+  const imageSrcArray = ['image1.jpg', 'image2.jpg', 'image3.jpg', 'image4.jpg', 'image5.jpg', 'image6.jpg'];
   imageSrcArray.forEach((src, index) => {
     images[index].src = src;
   });
 
   shuffleArray(imageSrcArray);
 });
+
 
 
